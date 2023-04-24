@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to right top, blue,blue, deepskyblue,darkturquoise );
+    color:white;
+    text-align:center;
+
+}
+h2{
+    font-family:cursive;
+}
+p{
+    font-family:fantasy;
+    letter-spacing: 0.8px;
+}
+.copy-right-footer
+{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:25px;
+    text-align:center;
+    font-size:17px;
+    background-image: linear-gradient(to right top, red, red, orange, yellow);
+    font-family:'DynaPuff', cursive;
+}
+
+.copy-right-footer:hover
+{
+    background-image: linear-gradient(to right top, darkgreen, darkgreen, lightgreen, mediumspringgreen,yellowgreen);
+    color: darkblue;
+    box-shadow: 0 6px 8px rgba(255, 255, 255, 0.2);
+}
+h3, h4, #Btn{
+    font-family: 'Rubik Wet Paint', cursive;
+    color:rgb(236, 236, 236);
+}
+#Btn
+{
+    background-image: linear-gradient(to right top, red, orange, orange, yellow);
+    width: 110px;
+    height: 42px;
+    font-size: 21px;
+    border-radius:10px;
+    align-items:center;
+    letter-spacing: 0.5px;
+}
+#Btn:hover{
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, darkviolet, blueviolet,violet,magenta);
+    color:rgb(255, 255, 255);
+    font-family:'DynaPuff', cursive;
+}
+h4{
+    letter-spacing: 0.9px;
+    color:rgb(255, 255, 255);
+}
+h3{
+    color:rgb(255, 255, 255);
+}
+#alien1, #alien2, #alien3, #alien4
+{
+    width:24%;
+}
+h4:hover
+{
+    font-family:'DynaPuff', cursive;
+    color:white;
+}
+h3:hover{
+    font-family:'DynaPuff', cursive;
+    color:white;
+}
+
+
+
