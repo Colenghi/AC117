@@ -31,17 +31,17 @@ function gotResults(error, results)
         img2 = document.getElementById('alien3')
         img3 = document.getElementById('alien4')
 
-        if (results[0].label == Palmas) {
+        if (results[0].label == "Palmas") {
             img.src =  'aliens-01.gif';
             img1.src = 'aliens-02.png';
             img2.src = 'aliens-03.png';
             img3.src = 'aliens-04.png';
-        }   else if (results[0].label == Estalos) {
+        }   else if (results[0].label == "Estalos") {
             img.src =  'aliens-01.png';
             img1.src = 'aliens-02.gif';
             img2.src = 'aliens-03.png';
             img3.src = 'aliens-04.png';
-        }   else if (results[0].label == Boca & Mão) {
+        }   else if (results[0].label == "Boca & Mão") {
             img.src =  'aliens-01.png';
             img1.src = 'aliens-02.png';
             img2.src = 'aliens-03.gif';
@@ -53,4 +53,4 @@ function gotResults(error, results)
             img3.src = 'aliens-04.gif';
         }
     }   
-}       
+} 
